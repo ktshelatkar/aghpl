@@ -1,13 +1,9 @@
 import * as React from 'react'
-import { Link } from 'react-router-dom';
 import Signup from '../../static/images/signup.png';
 import InputText from '../../components/inputtext';
 import ButtonText from '../../components/buttontext';
 class PasswordResetOne extends React.Component {
     render() {
-        const {
-            activeClass
-        } = this.props
         return (
             <div className="forgot-page">
                 <div className="col-md-6 offset-md-3">

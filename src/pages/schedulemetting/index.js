@@ -24,7 +24,7 @@ class ScheduleMetting extends React.Component {
                                         </div>
                                     </div>
                                     <div className="next-arrow">
-                                        <img src={ArrowR} />
+                                        <img src={ArrowR} alt="AGHPL"/>
                                     </div>
                                 </Link>
                             </div>
@@ -39,7 +39,7 @@ class ScheduleMetting extends React.Component {
                                         </div>
                                     </div>
                                     <div className="next-arrow">
-                                        <img src={ArrowR} />
+                                        <img src={ArrowR} alt="AGHPL"/>
                                     </div>
                                 </Link>
                             </div>
@@ -54,7 +54,7 @@ class ScheduleMetting extends React.Component {
                                         </div>
                                     </div>
                                     <div className="next-arrow">
-                                        <img src={ArrowR} />
+                                        <img src={ArrowR} alt="AGHPL"/>
                                     </div>
                                 </Link>
                             </div>

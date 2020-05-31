@@ -1,9 +1,7 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import BackIcon from '../../../static/images/icon-back.png'
 import IconWatch from '../../../static/images/icon-watch.png'
 import IconCalender from '../../../static/images/icon-calender.png';
-import InputText from '../../../components/inputtext';
 import Signup from '../../../static/images/signup.png';
 import ButtonText from '../../../components/buttontext';
 
@@ -25,17 +23,17 @@ class ScheduleDetail extends React.Component {
                             <div className="col-md-4">
                                 <div className="left-box">
                                     <div className="back-btn">
-                                        <button onClick={this.goBack}><img src={BackIcon} /></button>
+                                        <button onClick={this.goBack}><img src={BackIcon} alt="AGHPL"/></button>
                                     </div>
                                     <div className="text-demo">
                                         <h5>John Doe</h5>
                                         <h4>Demo Call</h4>
                                         <div className="img-text">
-                                            <img src={IconWatch} />
+                                            <img src={IconWatch} alt="AGHPL"/>
                                             <h6>30 min</h6>
                                         </div>
                                         <div className="img-schedule">
-                                            <img src={IconCalender} />
+                                            <img src={IconCalender} alt="AGHPL"/>
                                             <h5>11:30am- 12:00pm, Thursday, April 23, 2020</h5>
                                         </div>
                                     </div>
@@ -50,7 +48,7 @@ class ScheduleDetail extends React.Component {
                                                 <div class="form-group">
                                                     <label for="email">First Name<sup>*</sup></label>
                                                     <input type="email" class="form-control" />
-                                                    <span class="input-img"><img src={Signup} /></span>
+                                                    <span class="input-img"><img src={Signup} alt="AGHPL"/></span>
                                                 </div>
                                             </div>
                                             <div className="col-md-5">

@@ -4,12 +4,10 @@ class InputText extends React.Component{
     render() {
         const {
             type,
-            name,
             label,
             placeholder,
             image,
             errorMessages,
-            className
         } = this.props
         const inputclass = this.props.className || "" 
         return (
@@ -18,7 +16,7 @@ class InputText extends React.Component{
                 <input type={type} className={`form-control ${inputclass}`} id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={placeholder} />
                 {
                     image && 
-                <span class="input-img"><img src={image} /></span>
+                <span class="input-img"><img src={image} alt="AGHPL"/></span>
                 }
                 {
                     errorMessages && errorMessages !== "" &&

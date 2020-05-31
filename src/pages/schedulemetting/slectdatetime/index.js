@@ -20,13 +20,13 @@ class SelectDateTime extends React.Component {
                             <div className="col-md-6">
                                 <div className="left-box">
                                     <div className="back-btn">
-                                        <button onClick={this.goBack}><img src={BackIcon} /></button>
+                                        <button onClick={this.goBack}><img src={BackIcon} alt="AGHPL"/></button>
                                     </div>
                                     <div className="text-demo">
                                         <h5>John Doe</h5>
                                         <h4>Demo Call</h4>
                                         <div className="img-text">
-                                            <img src={IconWatch} />
+                                            <img src={IconWatch} alt="AGHPL"/>
                                             <h6>30 min</h6>
                                         </div>
                                     </div>

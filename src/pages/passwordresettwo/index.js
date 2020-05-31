@@ -1,15 +1,11 @@
 import * as React from 'react';
 import Signup from '../../static/images/signup.png';
-import Name from '../../static/images/name.png'
 import Password from '../../static/images/password.png'
 import InputText from '../../components/inputtext';
 import ButtonText from '../../components/buttontext';
 
 class PasswordResetTwo extends React.Component {
     render() {
-        const {
-            activeClass
-        } = this.props
         return (
             <div className="login-page">
                <div className="col-md-6 offset-md-3">

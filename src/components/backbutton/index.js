@@ -16,7 +16,7 @@ class BackButton extends React.Component {
         } = this.props
         return (
             <div className="back-btn">
-                <button onClick={this.goBack}><img src={BackIcon} /></button>
+                <button onClick={this.goBack}><img src={BackIcon} alt="AGHPL"/></button>
             </div>
         )
     }

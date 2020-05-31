@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Link } from 'react-router-dom';
 class ScheduleEventsTab extends React.Component {
     render() {
         return (
@@ -9,17 +8,17 @@ class ScheduleEventsTab extends React.Component {
                 </div>
 
                 <div className="display-event-tabel">
-                    <div class="tab-m">
+                    <div className="tab-m">
                         <nav>
-                            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="nav-upcoming-tab" data-toggle="tab" href="#nav-upcoming" role="tab" aria-controls="nav-upcoming" aria-selected="true">Upcoming</a>
+                            <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                <a className="nav-item nav-link active" id="nav-upcoming-tab" data-toggle="tab" href="#nav-upcoming" role="tab" aria-controls="nav-upcoming" aria-selected="true">Upcoming</a>
 
-                                <a class="nav-item nav-link" id="nav-past-tab" data-toggle="tab" href="#nav-past" role="tab" aria-controls="nav-past" aria-selected="false">Past</a>
+                                <a className="nav-item nav-link" id="nav-past-tab" data-toggle="tab" href="#nav-past" role="tab" aria-controls="nav-past" aria-selected="false">Past</a>
                             </div>
                         </nav>
                     </div>
-                    <div class="tab-content px-sm-0" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-upcoming" role="tabpanel" aria-labelledby="nav-upcoming-tab">
+                    <div className="tab-content px-sm-0" id="nav-tabContent">
+                        <div className="tab-pane fade show active" id="nav-upcoming" role="tabpanel" aria-labelledby="nav-upcoming-tab">
 
                             <div>
                                 <div className="evnets-time-schedule">
@@ -77,26 +76,26 @@ class ScheduleEventsTab extends React.Component {
                             <div><p>You've reached the end of the list</p></div>
 
                             <nav aria-label="pagination navigation example">
-                                <ul class="pagination justify-content-end">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Previous">
+                                <ul className="pagination justify-content-end">
+                                    <li className="page-item">
+                                        <a className="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true">&laquo;</span>
-                                            <span class="sr-only">Previous</span>
+                                            <span className="sr-only">Previous</span>
                                         </a>
                                     </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
+                                    <li className="page-item"><a className="page-link" href="#">1</a></li>
+                                    <li className="page-item"><a className="page-link" href="#">2</a></li>
+                                    <li className="page-item"><a className="page-link" href="#">3</a></li>
+                                    <li className="page-item">
+                                        <a className="page-link" href="#" aria-label="Next">
                                             <span aria-hidden="true">&raquo;</span>
-                                            <span class="sr-only">Next</span>
+                                            <span className="sr-only">Next</span>
                                         </a>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
-                        <div class="tab-pane fade" id="nav-past" role="tabpanel" aria-labelledby="nav-past-tab">
+                        <div className="tab-pane fade" id="nav-past" role="tabpanel" aria-labelledby="nav-past-tab">
                             <div className="evnets-time-schedule">
                                 <div className="event-time">
                                     <h5>Friday, 22 April 2020</h5>

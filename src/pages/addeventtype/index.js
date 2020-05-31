@@ -1,6 +1,5 @@
 import * as React from 'react'
 import AppointmentHeader from '../../components/appointmentheader';
-import { Link } from 'react-router-dom';
 
 class AddEventType extends React.Component {
     constructor(props) {

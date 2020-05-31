@@ -1,14 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js'
 import "../src/sass/main.scss";
-import { Row, Col, Container } from "reactstrap";
 import {
   BrowserRouter as Router,
   Route,
-  Link,
   Switch
 } from 'react-router-dom';
 import SignUp from './pages/signup';

@@ -12,27 +12,27 @@ class Appointments extends React.Component {
                 <div className="content">
                     <div className="container">
                         <div className="content-header">
-                            <h1>My Schedule <img src={Downarrow} /></h1>
+                            <h1>My Schedule <img src={Downarrow} alt="AGHPL"/></h1>
                         </div>
                     </div>
                     <div className="content-tab">
                         <div className="container">
-                            <div class="tab-m">
+                            <div className="tab-m">
                                 <nav>
-                                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Event Types</a>
-                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Schedule Events</a>
+                                    <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                        <a className="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Event Types</a>
+                                        <a className="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Schedule Events</a>
                                     </div>
                                 </nav>
                             </div>
                         </div>
                         <div className="tb-shadow">
                             <div className="container">
-                                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div className="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                    <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                         <EventTypes />
 					                    </div>
-                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                         <ScheduleEventsTab />
 					                </div>
                                 </div>

@@ -1,5 +1,4 @@
 import * as React from 'react';
-import ArrowR from '../../../static/images/icon-arrow-right.png';
 import { Link } from 'react-router-dom';
 import IconCalender from '../../../static/images/icon-calender.png';
 class ScheduleConfirm extends React.Component {
@@ -25,7 +24,7 @@ class ScheduleConfirm extends React.Component {
                                 </div>
 
                                 <div className="img-schedule">
-                                    <img src={IconCalender} />
+                                    <img src={IconCalender} alt="AGHPL"/>
                                     <h5>11:30am- 12:00pm, Thursday, April 23, 2020</h5>
                                 </div>
                             </div>
