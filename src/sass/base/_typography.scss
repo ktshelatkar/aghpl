@@ -1,0 +1,29 @@
+
+
+/*fonts*/
+@mixin font-face($font-name) {
+  @font-face {
+    font-family: "#{$font-name}";
+    src: url("/static/fonts/#{$font-name}.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/#{$font-name}.woff2") format("woff2"),
+      url("/static/fonts/#{$font-name}.woff") format("woff"), url("../../static/fonts/#{$font-name}.ttf") format("truetype"),
+      url("/static/fonts/#{$font-name}.svg#$font-name") format("svg"),
+      url("/static/fonts/#{$font-name}.eot?#iefix") format("embedded-opentype");
+  }
+}
+
+@mixin font-light($font-size: 14px, $letter-spacing: 0em, $line-height: 18px) {
+  font-family: "Maisonneue-Medium";
+  color: $grey-4;
+  font-size: $font-size;
+  letter-spacing: $letter-spacing;
+  line-height: $line-height;
+}
+
+@mixin font-bold($font-size: 16px, $letter-spacing: 0em, $line-height: 12px) {
+  font-family: "Maisonneue-Bold";
+  color: $grey-4;
+  font-size: $font-size;
+  letter-spacing: $letter-spacing;
+  line-height: $line-height;
+}

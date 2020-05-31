@@ -1,0 +1,16 @@
+.back-btn {
+  button {
+    border: transparent;
+    background: #0000;
+    padding: 0;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+    img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+  }
+}

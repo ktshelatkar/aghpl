@@ -1,0 +1,52 @@
+.schedule-detail-page {
+  .left-box {
+    .text-demo {
+      .img-schedule {
+        display: flex;
+        align-items: flex-start;
+        padding-top: 10px;
+        img {
+          width: 24px;
+          height: 24px;
+          object-fit: contain;
+        }
+        h5 {
+          @include font-bold(16px, 0px, 18px);
+          color: $grey-2;
+          margin-bottom: 0;
+          padding-left: 10px;
+          padding-top: 1px;
+          color: $green;
+        }
+      }
+    }
+  }
+  .right-box {
+    .form-m {
+      padding-top: 20px;
+    }
+    .form-group {
+      margin-bottom: 30px;
+      position: relative;
+      .input-img {
+        img {
+          width: 20px;
+          height: 20px;
+          object-fit: contain;
+        }
+      }
+      label {
+        @include font-light(16px, 0px, 26px);
+      }
+    }
+    .btn {
+      .button-text {
+        a {
+          font-size: 17px;
+          padding: 10px 20px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}

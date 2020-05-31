@@ -1,0 +1,34 @@
+.event-type-tab {
+  .top-text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-bottom: 1px solid $grey-1;
+    padding-bottom: 16px;
+    .left-text {
+      .my-link {
+        @include font-light(15px, 0, 18px);
+      }
+      .my-link-path {
+        @include font-light(15px, 0, 18px);
+        color: $blue-1;
+      }
+    }
+    .right-text {
+      .btn-event-type {
+        border: 1px solid $blue-1;
+        border-radius: 4px;
+        padding: 6px 15px;
+        cursor: pointer;
+        a {
+          text-decoration: none;
+          @include font-light(15px, 0, 18px);
+          color: $blue-1;
+        }
+      }
+    }
+  }
+  .ap-card {
+    padding-top: 18px;
+  }
+}

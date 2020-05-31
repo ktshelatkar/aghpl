@@ -1,0 +1,10 @@
+.forgot-password {
+  position: relative;
+  a {
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    @include font-light(18px, 0px, 24px);
+    color: $blue-1;
+  }
+}

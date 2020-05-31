@@ -1,0 +1,79 @@
+.schedule-event-tab {
+  .display-text {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    @include font-light(14px, 0, 18px);
+    color: $grey-2;
+  }
+  .display-event-tabel {
+    border: 1px solid $grey-1;
+    background-color: $white;
+    border-radius: 4px;
+    box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.15) !important;
+    padding: 20px 0;
+    .tab-m {
+      padding: 0 20px;
+      border-bottom: 1px solid $grey-1;
+    }
+  }
+  .evnets-time-schedule {
+    .event-time {
+      background-color: $grey-5;
+      padding: 20px;
+      border-bottom: 1px solid $grey-1;
+      h5 {
+        @include font-light(16px, 0px, 18px);
+      }
+    }
+    .event-detail {
+      display: flex;
+      padding: 20px;
+      border-bottom: 1px solid $grey-1;
+      .profile-pic {
+        div {
+          width: 30px;
+          height: 30px;
+          background: $blue-2;
+          border-radius: 50%;
+        }
+      }
+      .time {
+        @include font-light(16px, 0px, 18px);
+        padding-left: 25px;
+        padding-top: 8px;
+        max-width: 300px;
+        width: 100%;
+      }
+      .details {
+        h5 {
+          @include font-bold(16px, 0px, 24px);
+          span {
+            @include font-light(16px, 0px, 18px);
+          }
+        }
+      }
+    }
+  }
+  .evnets-time-schedule:last-child {
+    .event-detail {
+      border-bottom: 0;
+      padding-bottom: 50px;
+    }
+  }
+  p {
+    text-align: center;
+    @include font-light(14px, 0px, 18px);
+    color: $grey-2;
+  }
+  .pagination{
+      padding: 0 20px;
+      .page-link{
+          border: 0;
+          color: $blue-1;
+          &:focus{
+              box-shadow: none;
+          }
+      }
+  }
+}

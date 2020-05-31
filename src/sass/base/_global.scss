@@ -1,0 +1,44 @@
+.App {
+  text-align: unset;
+
+  ::-webkit-input-placeholder {
+    color: $grey-2;
+  }
+
+  :-ms-input-placeholder {
+    color: $grey-2;
+  }
+
+  ::placeholder {
+    color: $grey-2;
+  }
+  h5 {
+    margin-bottom: 0;
+  }
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.form-box {
+  max-width: 600px;
+  margin: 60px auto 60px;
+  .page-name {
+    padding-bottom: 40px;
+    h4 {
+      @include font-light(32px, 0px, 36px);
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+  .page-content {
+    border: 1px solid $grey-1;
+    padding: 45px;
+  }
+}

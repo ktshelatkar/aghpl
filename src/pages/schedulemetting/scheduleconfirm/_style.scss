@@ -1,0 +1,56 @@
+.schedule-confirm {
+  .schedule-header {
+    h5 {
+      @include font-light(24px, 0px, 18px);
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    p {
+      @include font-light(16px, 0px, 20px);
+      text-align: center;
+    }
+  }
+  .main-content {
+    margin: 0 auto;
+    display: block;
+    padding: 30px 100px;
+    .demo-row {
+      &.confirm {
+        border-top: 1px solid $grey-1;
+        border-bottom: 1px solid $grey-1;
+        padding: 30px 20px;
+        .img-schedule {
+          display: flex;
+          align-items: flex-start;
+          padding-top: 10px;
+          img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+          }
+          h5 {
+            @include font-bold(16px, 0px, 18px);
+            color: $grey-2;
+            margin-bottom: 0;
+            padding-left: 10px;
+            padding-top: 1px;
+            color: $green;
+          }
+        }
+      }
+    }
+    .another-event-text {
+        padding: 40px 0;
+      a {
+        @include font-light(16px, 0px, 18px);
+        color: $blue-1;
+        display: flex;
+        text-decoration: none;
+        span{
+            font-size: 28px;
+            padding-right: 10px;
+        }
+      }
+    }
+  }
+}

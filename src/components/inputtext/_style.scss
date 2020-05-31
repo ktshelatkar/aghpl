@@ -1,0 +1,40 @@
+.form-group {
+  margin-bottom: 30px;
+  position: relative;
+  label {
+    @include font-light(18px, 0px, 26px);
+  }
+  .error {
+    @include font-light(18px, 0px, 26px);
+    color: $red-1;
+  }
+  .input-img {
+    position: absolute;
+    right: 0;
+    top: 34px;
+    padding: 10px;
+    img {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+    }
+  }
+  .form-control {
+    height: 45px;
+    border-radius: 0;
+    border-color: $grey-1;
+    @include font-light(18px, 0px, 26px);
+    margin-bottom: 6px;
+    padding: 23px;
+    &.active {
+      background-color: $red-2;
+      border-color: $red-1;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+    input:-internal-autofill-selected {
+      background-color: transparent;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.appointment-card {
+  height: 170px;
+  border: 1px solid $grey-1;
+  border-radius: 4px;
+  border-top: 5px solid $blue-2;
+  box-shadow: 0 2px 1rem rgba(0,0,0,.15)!important;
+  .cm-con {
+    padding: 50px 16px 20px;
+    height: 115px;
+    h5{
+        @include font-light(20px, 0px, 24px);
+        margin-bottom: 0;
+        padding-bottom: 5px;
+    }
+    h6{
+        @include font-light(14px, 0px, 16px);
+        color: $grey-2;   
+        margin-bottom: 0;
+    }
+  }
+  .card-bottom{
+    border-top: 1px solid $grey-1;
+    padding: 12px 16px;
+    .edit{
+        @include font-light(14px, 0px, 16px);
+        color: $blue-1;
+        cursor: pointer;
+        display: inline-block;
+    }
+  }
+}

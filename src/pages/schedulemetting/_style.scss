@@ -1,0 +1,65 @@
+.box-contnet {
+  min-height: 700px;
+  box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius: 4px;
+  margin-top: 35px;
+}
+.schedule-metting-page {
+  .schedule-header {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50px;
+
+    h5 {
+      @include font-light(18px, 0px, 18px);
+      color: $grey-2;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    p {
+      @include font-light(14px, 0px, 20px);
+      color: $grey-2;
+      text-align: center;
+    }
+  }
+  .main-content {
+    max-width: 700px;
+    padding: 60px 150px;
+    .demo-row {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 20px 75px 0;
+        border-top: 1px solid $grey-1;
+        text-decoration: none;
+      }
+      .cm-left {
+        display: flex;
+        align-items: center;
+      }
+      .user {
+        div {
+          width: 30px;
+          height: 30px;
+          background: $blue-2;
+          border-radius: 50%;
+        }
+      }
+      .call-type {
+        h5 {
+          @include font-light(20px, 0, 24px);
+          padding-left: 20px;
+        }
+      }
+      .next-arrow {
+        img {
+          width: 20px;
+          height: 20px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.top-header {
+    background-color: $brown-1;
+    height: 60px;
+    .user {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px 0;
+      align-items: center;
+      .thumb {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: $grey;
+        border: 2px solid $grey-2;
+        h5 {
+          margin-bottom: 0;
+          @include font-bold(20px, 0, 40px);
+          text-align: center;
+        }
+      }
+      .user-name {
+        h5 {
+          @include font-light(16px, 0, 24px);
+          color: $grey;
+          padding-left: 10px;
+        }
+      }
+    }
+  }

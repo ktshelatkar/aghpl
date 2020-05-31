@@ -1,0 +1,14 @@
+.button-text{
+   
+    a{
+        background-color: $blue-1;
+        padding: 16px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer; 
+        @include font-light(20px, 0, 32px);
+        color: $white; 
+        text-decoration: none;
+    }
+}

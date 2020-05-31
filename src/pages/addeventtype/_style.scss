@@ -1,0 +1,118 @@
+.add-event-type {
+  .add-event-type-header {
+    padding: 30px 0;
+    .heading-h {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .back-btn {
+        button {
+          border: 1px solid $blue-1;
+          background: #0000;
+          @include font-light(16px, 0, 24px);
+          color: $blue-1;
+          height: 45px;
+          width: 90px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &:focus {
+            box-shadow: none;
+            outline: none;
+          }
+          span {
+            font-size: 30px;
+            padding-right: 10px;
+          }
+        }
+      }
+      .text-heading {
+        @include font-light(20px, 0, 24px);
+      }
+    }
+  }
+  .event-table {
+    border-top: 1px solid $grey-6;
+    .event-box {
+      border: 2px solid $grey-3;
+      margin-top: 40px;
+      padding: 30px 50px 0px;
+      .form-group {
+        label {
+          @include font-bold(14px, 0px, 18px);
+        }
+      }
+      .event-duration {
+        label {
+          @include font-bold(14px, 0px, 18px);
+        }
+        .time-box {
+          display: flex;
+          padding-top: 10px;
+          .box-a {
+            width: 70px;
+            height: 50px;
+            border: 1px solid $grey-3;
+            text-align: center;
+            padding: 11px 0;
+            &.active {
+              border: 2px solid $blue-1;
+              h5 {
+                color: $grey-3;
+                font-weight: 600;
+                font-size: 14px;
+              }
+              .box-a:nth-child(2) {
+                border-right: 0;
+              }
+            }
+            cursor: pointer;
+            h5 {
+              @include font-light(13px, 0px, 13px);
+              color: $grey-3;
+            }
+            h6 {
+              @include font-light(11px, 0px, 11px);
+              color: $grey-2;
+              margin-bottom: 0;
+            }
+          }
+          .box-a:nth-child(1) {
+            border-right: 0;
+          }
+          .box-a:nth-child(3) {
+            border-left: 0;
+          }
+          .box-a:nth-child(4) {
+            border-left: 0;
+          }
+          .box-a:nth-child(5) {
+            margin-left: 10px;
+          }
+        }
+      }
+      .event-footer {
+        border-top: 1px solid $grey-1;
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -50px;
+        margin-right: -50px;
+        padding: 10px 20px;
+        .btn {
+          @include font-light(14px, 0px, 11px);
+          border: 0;
+          padding: 10px;
+          &:focus {
+            box-shadow: none;
+            outline: none;
+          }
+        }
+        .btn-primary {
+          background-color: $blue-1;
+          color: $white;
+        }
+      }
+    }
+  }
+}

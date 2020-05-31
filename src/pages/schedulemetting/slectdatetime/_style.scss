@@ -1,0 +1,50 @@
+.select-dt-page, .schedule-detail-page{
+  .left-box {
+    border-right: 1px solid $grey-1;
+    padding: 40px;
+    height: 100%;
+    min-height: 700px;
+    .text-demo {
+      padding-top: 35px;
+      h5 {
+        @include font-light(20px, 0px, 32px);
+        color: $grey-2;
+      }
+      h4 {
+        @include font-bold(32px, 0px, 36px);
+      }
+      .img-text {
+        display: flex;
+        align-items: center;
+        img {
+          width: 24px;
+          height: 24px;
+          object-fit: contain;
+        }
+        h6 {
+          @include font-bold(16px, 0px, 18px);
+          color: $grey-2;
+          margin-bottom: 0;
+          padding-left: 10px;
+          padding-top: 1px;
+        }
+      }
+    }
+  }
+  .right-box {
+    padding: 40px;
+    h5 {
+      @include font-light(24px, 0px, 28px);
+    }
+  
+  }
+  .next-page {
+    padding: 40px;
+    position: fixed;
+    bottom: 65px;
+    right: 89px;
+    a {
+      @include font-light(24px, 0px, 28px);
+    }
+  }
+}
